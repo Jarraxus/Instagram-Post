@@ -1,1 +1,46 @@
-
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 0;
+    background-color: darkgray;
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
+.card {
+    background-color: white;
+    width: 25%;
+    align-content: center;
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
+.header {
+    display: inline-flex;
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
+.footer {
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
+.icons {
+    display: flex;
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
+.like-icon, .comment-icon, .share-icon {
+    justify-content: center;
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
+.bookmark-icon {
+    justify-content: flex-end;
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
